@@ -1,61 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Portfolio
-    </title>
-    <link rel="stylesheet" href="./assets/style.css"/>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ethans Portfolio</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
+
+    <body>
+        <!--header and nav-->
+        <header>
+            <div id="head"><h1>Ethan Armstrong</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#aboutme">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#mywork">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contactme">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <img src="./assets/img/banner.jpg" alt="banner">
+        </section>
 
 
-  <body>
-    <!--header-->
-    <div id="headcontainer"><header>
-        <div><h1>Ethan Armstrong</h1></div>
-        <li>
-            <a href=".aboutme">About Me</a>
-        </li>
-        <li>
-            <a href=".work">Work</a>
-        </li>
-        <li>
-            <a href=".contactinfo">Contact Info</a>
-        </li>
-    </header></div>
+        <!--about me-->
+        <section id="aboutme" class="aboutme">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div class="content-wrapper">
+                
+                <img src="./assets/img/headshot.jpg" alt="Selfie" height="500px" >
+                <div>
+                    <p>
+                        Hello, I am Ethan Armstrong. I grew up in Suwanee georgia and attended North Gwinnett High School and graduated in 2021. Following that I attended Kennesaw State University for a year in which I realized I was unsure of what I wanted to do. With that in mind I decided to take a gap year and am now pursuing an eduction in coding.
+                    </p>
+                    <p>
+                        My current goal is to start building a background in coding so I can one day become a developer.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <!-- my work section start -->
+        <section id="mywork" class="mywork">
+            <div class="title"><h2>My Work</h2></div>
+            <div class="content-wrapper">
+                <div class = "projectsgrid">
+                    <a href="https://duck0-land.github.io/Horiseon.WebPage/" id="horiseon" class="projects"></a>
+                    <a href="https://duck0-land.github.io/Java-Password-Generator/" id="passgen" class="projects"></a>
+                    <a href="" id="cquiz" class="projects"></a>
+                    <a href="https://thomasjshea.github.io/character-generator/" id="dgen" class="projects"></a>
+                </div>
+            </div>
+        </section>
 
-    <!--about me-->
-    <div id=".aboutme" class=".aboutme"><section>
-        <h2>About Me</h2>
-        <img src="" alt="selfie">
-        <p>Hello, I am Ethan Armstrong. I just graduated high school a little over 2 years ago and am currently trying to get into the tech industry.</p>
-    </section></div>
-
-    <!--work-->
-    <div id=".work"><section>
-        <h2>Work</h2>
-        <img src="" alt="Horiseon">
-        <img src="" alt="D&D Character generator">
-        <a href="https://thomasjshea.github.io/character-generator/">D&D Character generator</a>
-    </section></div>
-
-    <!--contact info-->
-    <div id=".contactinfo"><section>
-        <h2>Contact Info</h2>
-        <li>
-            <a href="(678)332-4411">(678)332-4411</a>
-        </li>
-        <li>
-            <a href="erhilston@gmail.com">erhilston@gmail.com</a>
-        </li>
-        <li>
-            <a href="https://github.com/Duck0-Land">https://github.com/Duck0-Land</a>
-        </li>
-    </section></div>
-
-
-
-  </body>
+        <!--contact info-->
+        <footer id="contactme">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="erhilston@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Duck0-Land" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <p>(678)332-4411</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
