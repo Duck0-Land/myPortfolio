@@ -1,0 +1,38 @@
+/*general body settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --color_1: #274fc7;
+    --color_2: #000000;
+    --color_3: #FFFFFF;
+    --color_4: #808080; 
+    --color_5: #5da388;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--color_2);
+    background-color: var(--color_5);
+}
+/*header*/
+.headcontainer {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 101%;
+    flex-direction: column;
+    background-color: var(--color_4);
+    padding: 50px;
+}
+/**/
+/**/
